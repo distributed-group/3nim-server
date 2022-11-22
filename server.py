@@ -1,5 +1,5 @@
 from jsonrpcserver import Success, method, serve, InvalidParams, Result, Error
-import re
+import re, socket
 
 queue = {}
 
@@ -16,4 +16,5 @@ def want_to_play(player_ip):
 	return Success(result)
     
 if __name__ == "__main__":
-    serve('192.168.10.5', 5001)
+    my_ip = socket.gethostbyname(socket.gethostname())
+    serve(my_ip, 5001)
