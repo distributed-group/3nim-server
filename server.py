@@ -4,9 +4,11 @@ import re, socket
 server_port = 5001
 queue = {}
 
-# This is the initial contact point for the clients, this function adds clients to the queue.
-# Servers sends 'waiting for players' -message when there are yet not enough players in the queue.
-# Server sends a 'ready to start' -message when 3 players have queued.
+"""
+This is the initial contact point for the clients, this function adds clients to the queue.
+Servers sends 'waiting for players' -message when there are yet not enough players in the queue.
+Server sends a 'ready to start' -message when 3 players have queued.
+"""
 @method
 def want_to_play(player_ip): 
 	global queue
