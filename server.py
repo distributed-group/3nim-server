@@ -13,7 +13,7 @@ Server sends a 'ready to start' -message when 3 players have queued.
 def want_to_play(player_ip): 
 	global queue
 	player_number = len(queue) + 1
-	queue['player' + str(player_number)] = player_ip
+	queue[player_number] = player_ip
 	if len(queue) >= 3:
 		result = queue
 		result['status'] = 'ready to start'
