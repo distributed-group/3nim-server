@@ -28,7 +28,7 @@ def want_to_play(player_ip):
 		queue = {}
 	else:
 		result = {}
-		result['status'] = 'waiting for players'
+		result['status'] = 'Waiting for players...'
 		result['game_id'] = game_id
 	return Success(result)
     
