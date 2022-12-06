@@ -20,7 +20,7 @@ def want_to_play(player_ip):
 		queue = {}
 	else:
 		result = {}
-		result['status'] = 'waiting for players'
+		result['status'] = 'Waiting for players...'
 	return Success(result)
     
 if __name__ == "__main__":
