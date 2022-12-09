@@ -3,7 +3,8 @@ import re, socket
 
 server_port = 5001
 queue = {}
-games = {}
+starting_games = {} # Games, which are started and players trying to connect each others
+running_games = {} # Games, which have all players connected
 
 """
 This is the initial contact point for the clients, this function adds clients to the queue.
@@ -15,16 +16,16 @@ def want_to_play(player_ip):
 	global queue
 	#check player is not in the queue already
 	if player_ip in queue.values():
-		return
+		return Success({})
 	player_number = len(queue) + 1
 	queue[player_number] = player_ip
-	game_id = len(games) + 1
+	game_id = len(starting_games) + len(running_games) + 1
 	if len(queue) >= 3:
 		result = queue
 		result['status'] = 'ready to start'
 		result['game_id'] = game_id
 		# Save players in games
-		games[game_id] = queue
+		starting_games[game_id] = queue
 		queue = {}
 	else:
 		result = {}
@@ -39,11 +40,52 @@ started to establish. So if it needs to be worried about the other nodes statuse
 @method
 def is_connecting_started(game_id):
 	result = {}
-	if game_id in games.keys():
+	if game_id in starting_games.keys():
 		result['connecting_started'] = True
-		return Success(result)
-	result['connecting_started'] = False
+	else:
+		result['connecting_started'] = False
 	return Success(result)
+
+"""
+This can be called if node want's to know if all players are connected.
+"""
+@method
+def are_we_connected(game_id):
+	print('server asked if nodes are connected')
+	result = {}
+	if game_id in running_games.keys():
+		result['connected'] = True
+	else:	
+		result['connected'] = False
+	return Success(result)
+
+"""
+This is called when node informs the server that it is connected to two other peers.
+When all three have informed, server marks the game to be started and running.
+"""
+@method
+def connected_to_two(game_id, player_ip):
+	if game_id in running_games.keys():
+		print('The game is already running, why do you want the server know that you have two peers?')
+	elif game_id in starting_games.keys():
+		#Note that this player has two peers
+		print('Game found, server knows now this player has two peers.')
+		starting_games[game_id][player_ip] = True
+		# Then let's check if all players have two peers
+		count_connected = 0
+		for i in range(1,4):
+			p_ip = starting_games[game_id][i]
+			if p_ip in starting_games[game_id].keys() and starting_games[game_id][p_ip]:
+				count_connected = count_connected + 1
+		if count_connected == 3:
+			print('Everybody is connected, wonderful.')
+			running_games[game_id] = starting_games[game_id]
+			del starting_games[game_id]
+			print('servers games are now ', 'starting: ', starting_games, 'running: ', running_games)
+	else:
+		print('Game no found!')
+	return Success({'received': True})
+
 
 if __name__ == "__main__":
     my_ip = socket.gethostbyname(socket.gethostname())
