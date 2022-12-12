@@ -3,6 +3,7 @@ import re, socket
 
 server_port = 5001
 queue = {}
+game_id_for_queue = None # Initialized when first player appears
 starting_games = {} # Games, which are started and players trying to connect each others
 running_games = {} # Games, which have all players connected
 
@@ -13,24 +14,24 @@ Server sends a 'ready to start' -message when 3 players have queued.
 """
 @method
 def want_to_play(player_ip): 
-	global queue
+	global queue, game_id_for_queue
 	#check player is not in the queue already
-	if player_ip in queue.values():
-		return Success({})
-	player_number = len(queue) + 1
-	queue[player_number] = player_ip
-	game_id = len(starting_games) + len(running_games) + 1
+	if len(queue) == 0:
+		game_id_for_queue = len(starting_games) + len(running_games) + 1
+	if player_ip not in queue.values():
+		player_number = len(queue) + 1
+		queue[player_number] = player_ip
 	if len(queue) >= 3:
 		result = queue
 		result['status'] = 'ready to start'
-		result['game_id'] = game_id
+		result['game_id'] = game_id_for_queue
 		# Save players in games
-		starting_games[game_id] = queue
+		starting_games[game_id_for_queue] = queue
 		queue = {}
 	else:
 		result = {}
 		result['status'] = 'Waiting for players...'
-		result['game_id'] = game_id
+		result['game_id'] = game_id_for_queue
 	return Success(result)
     
 """
