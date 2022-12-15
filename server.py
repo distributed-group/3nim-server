@@ -52,7 +52,7 @@ This can be called if node want's to know if all players are connected.
 """
 @method
 def are_we_connected(game_id):
-	print('server asked if nodes are connected')
+	print('server was asked if nodes are connected')
 	result = {}
 	if game_id in running_games.keys():
 		result['connected'] = True
@@ -82,7 +82,7 @@ def connected_to_two(game_id, player_ip):
 			print('Everybody is connected, wonderful.')
 			running_games[game_id] = starting_games[game_id]
 			del starting_games[game_id]
-			print('servers games are now ', 'starting: ', starting_games, 'running: ', running_games)
+			#print('servers games are now ', 'starting: ', starting_games, 'running: ', running_games)
 	else:
 		print('Game no found!')
 	return Success({'received': True})
