@@ -1,0 +1,81 @@
+192.168.10.5,Sat Dec 17 10:18:04 2022,1671265084214021117,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:18:04 2022,1671265084266714327,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:18:05 2022,1671265085227392998,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:18:05 2022,1671265085273499372,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:18:05 2022,1671265085297252421,"Game found, server knows now this player 192.168.10.8 has two peers."
+192.168.10.5,Sat Dec 17 10:18:05 2022,1671265085299583843,"Game found, server knows now this player 192.168.10.4 has two peers."
+192.168.10.5,Sat Dec 17 10:18:05 2022,1671265085307613152,"Game found, server knows now this player 192.168.10.6 has two peers."
+192.168.10.5,Sat Dec 17 10:18:05 2022,1671265085308246315,"Everybody is connected, wonderful."
+192.168.10.5,Sat Dec 17 10:18:06 2022,1671265086240445126,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:18:06 2022,1671265086278243601,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:18:06 2022,1671265086285057983,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:20:52 2022,1671265252775639168,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:20:53 2022,1671265253172986734,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:20:53 2022,1671265253787680571,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:20:54 2022,1671265254187386961,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:20:54 2022,1671265254803287552,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:20:55 2022,1671265255202000540,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:20:55 2022,1671265255816334146,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:20:56 2022,1671265256212284693,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:20:56 2022,1671265256831054017,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:20:57 2022,1671265257225024004,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:20:57 2022,1671265257838160656,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:20:58 2022,1671265258243030034,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:20:58 2022,1671265258847978561,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:20:59 2022,1671265259255884722,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:20:59 2022,1671265259862425711,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:21:00 2022,1671265260271218027,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:21:00 2022,1671265260875303243,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:21:01 2022,1671265261290287729,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:21:01 2022,1671265261885582818,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:21:02 2022,1671265262304361117,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:21:14 2022,1671265274902152217,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:21:15 2022,1671265275303684200,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:21:15 2022,1671265275797229150,"Game found, server knows now this player 192.168.10.8 has two peers."
+192.168.10.5,Sat Dec 17 10:21:15 2022,1671265275799210993,"Game found, server knows now this player 192.168.10.4 has two peers."
+192.168.10.5,Sat Dec 17 10:21:15 2022,1671265275819875462,"Game found, server knows now this player 192.168.10.6 has two peers."
+192.168.10.5,Sat Dec 17 10:21:15 2022,1671265275820424260,"Everybody is connected, wonderful."
+192.168.10.5,Sat Dec 17 10:21:15 2022,1671265275910668962,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:21:16 2022,1671265276324460562,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:21:16 2022,1671265276798656956,server was asked if nodes are connected
+192.168.10.5,Sat Dec 17 10:21:56 2022,1671265316272704884,server was asked if the peer connecting has started for game 1
+192.168.10.5,Sat Dec 17 10:21:57 2022,1671265317282400286,server was asked if the peer connecting has started for game 1
+192.168.10.5,Sat Dec 17 10:21:58 2022,1671265318293542991,server was asked if the peer connecting has started for game 1
+192.168.10.5,Sat Dec 17 10:21:59 2022,1671265319299869025,server was asked if the peer connecting has started for game 1
+192.168.10.5,Sat Dec 17 10:21:59 2022,1671265319679846859,server was asked if the peer connecting has started for game 1
+192.168.10.5,Sat Dec 17 10:22:00 2022,1671265320308905882,server was asked if the peer connecting has started for game 1
+192.168.10.5,Sat Dec 17 10:22:00 2022,1671265320694934329,server was asked if the peer connecting has started for game 1
+192.168.10.5,Sat Dec 17 10:22:01 2022,1671265321321136693,server was asked if the peer connecting has started for game 1
+192.168.10.5,Sat Dec 17 10:22:01 2022,1671265321707463693,server was asked if the peer connecting has started for game 1
+192.168.10.5,Sat Dec 17 10:22:02 2022,1671265322343769727,server was asked if nodes are connected for game 1
+192.168.10.5,Sat Dec 17 10:22:02 2022,1671265322746097009,server was asked if nodes are connected for game 1
+192.168.10.5,Sat Dec 17 10:22:03 2022,1671265323356405653,server was asked if nodes are connected for game 1
+192.168.10.5,Sat Dec 17 10:22:03 2022,1671265323754782141,"Game 1 found, server knows now this player 192.168.10.4 has two peers."
+192.168.10.5,Sat Dec 17 10:22:03 2022,1671265323761980393,server was asked if nodes are connected for game 1
+192.168.10.5,Sat Dec 17 10:22:03 2022,1671265323766711452,"Game 1 found, server knows now this player 192.168.10.8 has two peers."
+192.168.10.5,Sat Dec 17 10:22:03 2022,1671265323780225131,"Game 1 found, server knows now this player 192.168.10.6 has two peers."
+192.168.10.5,Sat Dec 17 10:22:03 2022,1671265323781256110,"Everybody is connected, wonderful. Game id: 1"
+192.168.10.5,Sat Dec 17 10:22:03 2022,1671265323795839363,"The game is already running, why do you want the server know that you have two peers? 192.168.10.8"
+192.168.10.5,Sat Dec 17 10:22:04 2022,1671265324369978801,server was asked if nodes are connected for game 1
+192.168.10.5,Sat Dec 17 10:22:04 2022,1671265324740696016,server was asked if nodes are connected for game 1
+192.168.10.5,Sat Dec 17 10:22:04 2022,1671265324776964320,server was asked if nodes are connected for game 1
+192.168.10.5,Sat Dec 17 10:24:18 2022,1671265458233061591,server was asked if the peer connecting has started for game 2
+192.168.10.5,Sat Dec 17 10:24:19 2022,1671265459242935430,server was asked if the peer connecting has started for game 2
+192.168.10.5,Sat Dec 17 10:24:20 2022,1671265460058333249,server was asked if the peer connecting has started for game 2
+192.168.10.5,Sat Dec 17 10:24:20 2022,1671265460252679078,server was asked if the peer connecting has started for game 2
+192.168.10.5,Sat Dec 17 10:24:21 2022,1671265461067589255,server was asked if the peer connecting has started for game 2
+192.168.10.5,Sat Dec 17 10:24:21 2022,1671265461275210523,server was asked if the peer connecting has started for game 2
+192.168.10.5,Sat Dec 17 10:24:22 2022,1671265462079589533,server was asked if the peer connecting has started for game 2
+192.168.10.5,Sat Dec 17 10:24:22 2022,1671265462282757054,server was asked if the peer connecting has started for game 2
+192.168.10.5,Sat Dec 17 10:24:23 2022,1671265463101510082,server was asked if nodes are connected for game 2
+192.168.10.5,Sat Dec 17 10:24:23 2022,1671265463293521496,server was asked if nodes are connected for game 2
+192.168.10.5,Sat Dec 17 10:24:24 2022,1671265464120361300,server was asked if nodes are connected for game 2
+192.168.10.5,Sat Dec 17 10:24:24 2022,1671265464304698124,server was asked if nodes are connected for game 2
+192.168.10.5,Sat Dec 17 10:24:24 2022,1671265464329119976,"Game 2 found, server knows now this player 192.168.10.4 has two peers."
+192.168.10.5,Sat Dec 17 10:24:24 2022,1671265464332914551,"Game 2 found, server knows now this player 192.168.10.8 has two peers."
+192.168.10.5,Sat Dec 17 10:24:24 2022,1671265464342936510,"Game 2 found, server knows now this player 192.168.10.8 has two peers."
+192.168.10.5,Sat Dec 17 10:24:24 2022,1671265464347548999,"Game 2 found, server knows now this player 192.168.10.6 has two peers."
+192.168.10.5,Sat Dec 17 10:24:24 2022,1671265464348369719,"Everybody is connected, wonderful. Game id: 2"
+192.168.10.5,Sat Dec 17 10:24:25 2022,1671265465132724350,server was asked if nodes are connected for game 2
+192.168.10.5,Sat Dec 17 10:24:25 2022,1671265465316725446,server was asked if nodes are connected for game 2
+192.168.10.5,Sat Dec 17 10:24:25 2022,1671265465324457581,server was asked if nodes are connected for game 2
